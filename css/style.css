@@ -14,7 +14,7 @@ body {
   width: 65%;
   height: 80vh;
   margin: 5% auto;
-  border: 1px solid gray;
+  border: 3px solid #712D1B;
   border-radius: 10px;
 }
 #meni ul li {
@@ -38,7 +38,7 @@ a {
 
 #wrapper {
   display: grid;
-  grid-template-rows: 1fr 0.5fr;
+  grid-template-rows: 1fr 200px;
   height: 100%;
   border-radius: 10px;
 }
@@ -53,7 +53,8 @@ a {
 #prvi-desno {
   padding-top: 2%;
   text-align: start;
-  border: 1px solid black;
+  border-bottom: 3px solid #712D1B;
+  border-top: 3px solid #712D1B;
 }
 
 #prvi-desno ul li {
@@ -65,9 +66,9 @@ a {
 }
 
 #drugi {
-  font-size: 49px;
-  padding: 10%;
   text-align: center;
+  height: auto;
+  overflow: hidden;
 }
 
 #logo {
@@ -76,20 +77,30 @@ a {
 }
 
 #logo-slika {
-  width: 200px;
+  width: 350px;
 }
 
 #prvi-lijevo {
   text-align: center;
-  border: 1px solid black;
+  padding-top: 20px;
+  border-bottom: 3px solid #712D1B;
+  border-right: 3px solid #712D1B;
+  border-top: 3px solid #712D1B;
 }
 
 #kritika {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 25px;
-  border: 2px solid black;
-  margin: 2%;
+  border: 2px solid #712D1B;
+  background-color:#E8AD30;
+  text-shadow: -1px -1px 0 white,  1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  margin: 5px 10px;
+  margin-bottom: 20px;
+}
+
+#kritika a {
+  color: #712D1B;
 }
 
 #naslov {
