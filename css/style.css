@@ -2,3 +2,84 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(180, 128, 30, 0.493);
+}
+#okvir {
+  background-color: orange;
+  width: 65%;
+  height: 80vh;
+  margin: 5% auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+#meni ul li {
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#meni-lista {
+  list-style: none;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: rgb(202, 137, 16);
+}
+
+#wrapper {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#prvi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  justify-content: center;
+}
+
+#prvi-desno {
+  padding-top: 10%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#prvi-desno ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+#drugi {
+  font-size: 49px;
+  padding: 10%;
+  text-align: center;
+}
+
+#logo {
+  margin: 10px auto;
+  margin-bottom: 50px;
+}
+
+#logo-slika {
+  width: 200px;
+}
+
+#prvi-lijevo {
+  text-align: center;
+  border: 1px solid black;
+}
+
+#kritika {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+}
