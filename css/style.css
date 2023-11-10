@@ -7,6 +7,8 @@ html {
   font-family: "Poppins", sans-serif;
   background-color: rgba(180, 128, 30, 0.493);
 }
+body {
+}
 #okvir {
   background-color: orange;
   width: 65%;
@@ -17,9 +19,10 @@ html {
 }
 #meni ul li {
   display: inline-block;
-  margin: 10px;
+  margin: 1%;
   font-weight: bold;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -48,14 +51,17 @@ a {
 }
 
 #prvi-desno {
-  padding-top: 10%;
-  text-align: center;
+  padding-top: 2%;
+  text-align: start;
   border: 1px solid black;
 }
 
 #prvi-desno ul li {
   list-style: none;
-  margin: 10px;
+  text-decoration: underline;
+  font-size: 20px;
+
+  margin: 5%;
 }
 
 #drugi {
@@ -81,5 +87,16 @@ a {
 #kritika {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 25px;
+  border: 2px solid black;
+  margin: 2%;
+}
+
+#naslov {
+  text-align: center;
+}
+
+#adrese {
+  margin-left: 30%;
+  text-align: left;
 }
