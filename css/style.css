@@ -14,7 +14,7 @@ body {
   width: 65%;
   height: 80vh;
   margin: 5% auto;
-  border: 3px solid #712D1B;
+  border: 3px solid #712d1b;
   border-radius: 10px;
 }
 #meni ul li {
@@ -38,7 +38,7 @@ a {
 
 #wrapper {
   display: grid;
-  grid-template-rows: 1fr 200px;
+  grid-template-rows: 1fr 0.3fr;
   height: 100%;
   border-radius: 10px;
 }
@@ -53,14 +53,14 @@ a {
 #prvi-desno {
   padding-top: 2%;
   text-align: start;
-  border-bottom: 3px solid #712D1B;
-  border-top: 3px solid #712D1B;
+  border-bottom: 3px solid #712d1b;
+  border-top: 3px solid #712d1b;
 }
 
 #prvi-desno ul li {
   list-style: none;
   text-decoration: underline;
-  font-size: 20px;
+  font-size: 1.2rem;
 
   margin: 5%;
 }
@@ -68,7 +68,9 @@ a {
 #drugi {
   text-align: center;
   height: auto;
-  overflow: hidden;
+  width: auto;
+  border-radius: 10px;
+  font-size: 2rem;
 }
 
 #logo {
@@ -83,24 +85,27 @@ a {
 #prvi-lijevo {
   text-align: center;
   padding-top: 20px;
-  border-bottom: 3px solid #712D1B;
-  border-right: 3px solid #712D1B;
-  border-top: 3px solid #712D1B;
+  border-bottom: 3px solid #712d1b;
+  border-right: 3px solid #712d1b;
+  border-top: 3px solid #712d1b;
 }
 
-#kritika {
+#kritika,
+.download {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 25px;
-  border: 2px solid #712D1B;
-  background-color:#E8AD30;
-  text-shadow: -1px -1px 0 white,  1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  border: 2px solid #712d1b;
+  background-color: #e8ad30;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
   margin: 5px 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-#kritika a {
-  color: #712D1B;
+#kritika a,
+.download a {
+  color: #712d1b;
 }
 
 #naslov {
@@ -109,5 +114,12 @@ a {
 
 #adrese {
   margin-left: 30%;
+  margin-top: 18%;
   text-align: left;
+}
+
+#akcija {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 3.5%;
 }
